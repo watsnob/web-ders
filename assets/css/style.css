@@ -55,3 +55,34 @@ header{
 }
 
 /* 1rem = 16px */
+main{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main .main-slider{
+    width: 100%;
+    height: 50vh;
+}
+
+/* Swipper start */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    user-select: none;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  /* Swipper end */

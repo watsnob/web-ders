@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-Ders</title>
+    <!-- Main css-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Swipper Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -23,21 +26,57 @@
         </div>
     </header>
     <main>
-        <h1>Merhaba Javascript</h1>
-        <button onclick="buttonMethod()">Onclick jS</button>
-        <br>
-        <input type="text" id="name" class="name" placeholder="Adınız">
-        <br>
-        <button id="btnClick">Id Click Js</button>
+        <section class="main-slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="main-about">
+            <div class="main-about-header">
+                <h1>Hakkımızda</h1>
+            </div>
+            <div class="main-about-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium sit debitis sequi aspernatur
+                voluptas veniam libero quia beatae deserunt!
+                <button class="main-about-body">İletişime Geç!</button>
+            </div>
+            <div class="main-about-footer">
+                <h1>Merhaba Javascript</h1>
+                <button onclick="buttonMethod()">Onclick jS</button>
+                <br>
+                <input type="text" id="name" class="name" placeholder="Adınız">
+                <br>
+                <button id="btnClick">Id Click Js</button>
+            </div>
+        </section>
+
+
     </main>
     <footer>
 
     </footer>
     <!-- Javascrip Eğitim İçerik-->
-     <script src="assets/js/script.js"></script>
-     <script>
-
-     </script>
+    <script src="assets/js/script.js"></script>
+    <!-- Swipper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- App Js -->
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
