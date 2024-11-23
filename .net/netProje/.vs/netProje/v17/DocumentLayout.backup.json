@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CANGO\\Desktop\\ders\\web-ders\\.net\\netProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A930D4-9797-457D-B7CF-2C02791803FE}|netProje\\netProje.csproj|c:\\users\\cango\\desktop\\ders\\web-ders\\.net\\netproje\\netproje\\controllers\\usercontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A930D4-9797-457D-B7CF-2C02791803FE}|netProje\\netProje.csproj|solutionrelative:netproje\\controllers\\usercontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A930D4-9797-457D-B7CF-2C02791803FE}|netProje\\netProje.csproj|c:\\users\\cango\\desktop\\ders\\web-ders\\.net\\netproje\\netproje\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A930D4-9797-457D-B7CF-2C02791803FE}|netProje\\netProje.csproj|solutionrelative:netproje\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A930D4-9797-457D-B7CF-2C02791803FE}|netProje\\netProje.csproj|c:\\users\\cango\\desktop\\ders\\web-ders\\.net\\netproje\\netproje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A930D4-9797-457D-B7CF-2C02791803FE}|netProje\\netProje.csproj|solutionrelative:netproje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\CANGO\\Desktop\\ders\\web-ders\\.net\\netProje\\netProje\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "netProje\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\CANGO\\Desktop\\ders\\web-ders\\.net\\netProje\\netProje\\Models\\UserModel.cs",
+              "RelativeToolTip": "netProje\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:11:04.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserContoller.cs",
+              "DocumentMoniker": "C:\\Users\\CANGO\\Desktop\\ders\\web-ders\\.net\\netProje\\netProje\\Controllers\\UserContoller.cs",
+              "RelativeDocumentMoniker": "netProje\\Controllers\\UserContoller.cs",
+              "ToolTip": "C:\\Users\\CANGO\\Desktop\\ders\\web-ders\\.net\\netProje\\netProje\\Controllers\\UserContoller.cs",
+              "RelativeToolTip": "netProje\\Controllers\\UserContoller.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T16:16:08.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CANGO\\Desktop\\ders\\web-ders\\.net\\netProje\\netProje\\Program.cs",
+              "RelativeDocumentMoniker": "netProje\\Program.cs",
+              "ToolTip": "C:\\Users\\CANGO\\Desktop\\ders\\web-ders\\.net\\netProje\\netProje\\Program.cs",
+              "RelativeToolTip": "netProje\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T16:07:13.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

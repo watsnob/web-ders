@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "netProje.Controllers.UserContoller",
+    "Method": "GetByIdUsers",
+    "RelativePath": "UserContoller/GetByIdUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "netProje.Controllers.UserContoller",
+    "Method": "UserList",
+    "RelativePath": "UserContoller/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "netProje.Controllers.UserContoller",
+    "Method": "UserAdd",
+    "RelativePath": "UserContoller/UserAdd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "netProje.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "netProje.Controllers.UserContoller",
+    "Method": "UserDelete",
+    "RelativePath": "UserContoller/UserDelete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "netProje.Controllers.UserContoller",
+    "Method": "UpdateUser",
+    "RelativePath": "UserContoller/UserUpdate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newUser",
+        "Type": "netProje.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
