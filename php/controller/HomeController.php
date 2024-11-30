@@ -7,7 +7,7 @@ class HomeController
     public $varible = []; // her yerde kullanılır
 
     //method tanımlama
-    public function index()
+    public function index():void
     {
         $title = "Anaysafa";
         print "Ben HomeController içindeki index methodu...";

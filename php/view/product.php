@@ -15,7 +15,7 @@
     </style>
 
     <h1>Ürünler</h1>
-    <p><?php print_r($products) ?></p>
+    <p><?php print_r($product) ?></p>
     <table>
         <tr>
             <th>Ürün Id</th>
@@ -24,16 +24,14 @@
             <th>Renk</th>
         </tr>
         <?php
-        if ($products) {
-            foreach ($products as $value) { ?>
-                <tr>
-                    <td><?php print $value['id'] ?></td>
-                    <td><?php print $value['name'] ?></td>
-                    <td><?php print $value['color_code'] ?></td>
-                    <td><?php print $value['color_name'] ?></td>
-                </tr>
-        <?php }
-        } ?>
+        if ($product) { ?>
+            <tr>
+                <td><?php print $product['id'] ?></td>
+                <td><?php print $product['name'] ?></td>
+                <td><?php print $product['color_code'] ?></td>
+                <td><?php print $product['color_name'] ?></td>
+            </tr>
+        <?php } ?>
     </table>
 </body>
 
