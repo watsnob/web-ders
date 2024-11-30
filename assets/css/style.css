@@ -161,3 +161,104 @@ main .main-javascript {
 }
 
 /* Swipper end */
+
+
+.main-bize-katilin{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.main-bize-katilin-left{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.main-bize-katilin-left img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.main-bize-katilin-right{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-self: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main-bize-katilin-right-header{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bize-katilin-right-header h2{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.main-bize-katilin-right-body{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bize-katilin-right-body p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+.main-bize-katilin-right-footer{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-bize-katilin-right-footer button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(63, 73, 97);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    margin-right: 30px;
+}
+/*Bize Katılın */
+
+/*Referanslar */
+.main-reference{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(163, 174, 185);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-reference .main-reference-box{
+    width: 30%;
+    height: 50%;
+    margin: 5px;
+}
+
+.main-reference .main-reference-box img{
+    width: 100%;
+    height: 100%;
+}
+/*Referanslar */
